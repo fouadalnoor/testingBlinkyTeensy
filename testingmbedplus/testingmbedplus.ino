@@ -72,6 +72,8 @@
     #   error Platform not defined
 #endif // end IDE
 
+
+
 // Set parameters
 
 
@@ -83,14 +85,15 @@
 
 // Define variables and constants
 
-
-// Prototypes
+int led = 13;
+// Prototypes®
 
 
 // Add setup code
 void setup()
 {
-
+    pinMode(led, OUTPUT);
+    
 }
 
 // Add loop code

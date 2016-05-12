@@ -21,10 +21,34 @@
 # List application Arduino/chipKIT/Digispark/Energia/Maple/Microduino/Teensy/Wiring libraries here
 # default = 0 = none
 #
+# ARDUINO = Bridge Esplora Ethernet Firmata GSM 
+#	LiquidCrystal Robot_Control Robot_Motor RobotIRremote SD Servo 
+#	SpacebrewYun Stepper Temboo TFT WiFi 
+# TEENSY = Bridge Esplora Ethernet Firmata GSM Keyboard 
+#	LiquidCrystal Mouse Robot_Control Robot_Motor RobotIRremote SD Servo 
+#	SpacebrewYun Stepper Temboo TFT WiFi AccelStepper Adafruit_CC3000 
+#	Adafruit_GFX Adafruit_ILI9340 Adafruit_ILI9341 Adafruit_NeoPixel 
+#	Adafruit_nRF8001 Adafruit_RA8875 Adafruit_SSD1306 Adafruit_ST7735 
+#	Adafruit_STMPE610 Adafruit_VS1053 ADC AltSoftSerial Artnet Audio Bounce 
+#	Bounce2 CapacitiveSensor DmxSimple DogLcd DS1307RTC EEPROM 
+#	Encoder Entropy Ethernet FastCRC FastLED FlexCAN FlexiTimer2 
+#	FreqCount FreqMeasure FreqMeasureMulti FrequencyTimer2 i2c_t3 
+#	ILI9341_t3 IRremote Keypad ks0108 LedControl LedDisplay 
+#	LiquidCrystal LiquidCrystalFast LowPower Metro MFRC522 MIDI MsTimer2 
+#	NewPing NXPMotionSense OctoWS2811 OneWire openGLCD OSC Ping 
+#	PS2Keyboard PulsePosition PWMServo RA8875 RadioHead SD SerialFlash 
+#	Servo ShiftPWM Snooze SoftPWM SoftwareSerial SPI SPIFlash 
+#	ST7565 Talkie TFT_ILI9163C Time TimeAlarms TimerOne TimerThree 
+#	TinyGPS Tlc5940 TouchScreen UTFT VirtualWire Wire x10 XBee 
+#	XPT2046_Touchscreen 
+#
 APP_LIBS_LIST = 0
 
 # List user's libraries here 
 # default = 0 = none
+#
+# USER = Adafruit_CC3000_Library Adafruit_NeoPixel 
+#	FreqCount IRremote Keypad SPIFlash 
 #
 USER_LIBS_LIST = 0
 
@@ -120,7 +144,7 @@ NO_SERIAL_CONSOLE =
 # SERIAL_BAUDRATE for the serial console, 9600 by default
 # Uncomment and specify another speed
 #
-#SERIAL_BAUDRATE = 115200
+#SERIAL_BAUDRATE = 9600
 
 
 # Miscellaneous
@@ -139,4 +163,13 @@ MAKEFILE_PATH  = $(CURRENT_DIR)/Makefiles
 UTILITIES_PATH = $(CURRENT_DIR)/Utilities
 
 include $(MAKEFILE_PATH)/Step1.mk
+
+
+
+
+
+
+
+
+
 
