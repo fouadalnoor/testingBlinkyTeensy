@@ -99,5 +99,8 @@ void setup()
 // Add loop code
 void loop()
 {
-
+    digitalWrite(led, LOW);
+    delay(1000);
+    digitalWrite(led, HIGH);
+    delay(1000);
 }
